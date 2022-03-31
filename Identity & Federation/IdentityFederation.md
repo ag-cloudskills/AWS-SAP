@@ -1,7 +1,11 @@
 # IAM
--> User access ( long term credentials) and permissions can be given at group level for the users
--> STS is used for giving short term credentials 
-    - EC2 instance role
+- User access ( long term credentials) and permissions can be given at group level for the users
+- STS is used for giving short term credentials 
+    - EC2 instance role ( attached to EC2)
     - Service role - API gateway
     - Cross Account role
-->  
+- Policies
+    - AWS managed
+    - Customer Managed
+    - Inline polices 
+    - resource specific policy ( DynamodDB , S3)
