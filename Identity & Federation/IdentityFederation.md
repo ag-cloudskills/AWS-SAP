@@ -9,3 +9,7 @@
     - Customer Managed
     - Inline polices 
     - resource specific policy ( DynamodDB , S3)
+    - Combination of allow and not allow can be used , if any specific actions needs to be allowed under one resource 
+    - condition operators can be uses for the condition 
+
+
