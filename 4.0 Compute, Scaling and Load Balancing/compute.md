@@ -1,0 +1,1 @@
+Flow of Traffic of an application ->WebTier(Loadblancer ,api gateway) -> Compute Tier ( EC2, containers, Lambda) -> Caching () -> DB(RDS)
