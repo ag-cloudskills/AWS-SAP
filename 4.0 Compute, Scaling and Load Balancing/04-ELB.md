@@ -1,8 +1,12 @@
 # ELB
 
-- internet facing or internal
-- Listners - port configuration
-- need minimum 8 free ip for the LB (/27 subnet)
+![ELB architecture](/4.0%20Compute,%20Scaling%20and%20Load%20Balancing/04.1-ELB-arch.drawio.svg)
+  
+- ELB can be internet facing or internal
+- ELB are configured with listners which accepts traffic on a port and protocol
+- It needs minimum 8 free ip for the LB (/27 subnet)
+- Internet facing ELB can access private EC2 instances
+- Each ELB is configured with A record DNS name
 - cross zone LB - better distribution of load
 - v1( migrate) and v2 ( prefer) LB
 - classic lb ( v1), not 7 layer , 1 SSL per CLB
